@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: #0a0a0a;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#140e1f, #090413);
+}
+
+.announcement {
+  padding: 12px 20px;
+  background-color: #1e1928;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.announcement-link {
+  text-decoration: none;
+  color: white;
+  width: 23vw;
+}
+
+.announcement-link:hover {
+  box-shadow: 0px 0px 80px #54456b;
+}
+
+.announcement-text {
+  font-size: 1.4vw;
+}
+
+.announcement-button {
+  padding: 8px 18px;
+  background-color: #35303e;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.hero-title {
+  width: 70vw;
+  font-size: 5vw;
+}
+
+.hero-description {
+  width: 50vw;
+  font-size: 1.6vw;
+  margin-bottom: 4vh;
+  color: #b1b0b2;
+}
+
+.cta-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #3a57e8;
+  background-image: linear-gradient(160deg, #3a57e8 0%, #6841eb 100%);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.cta-button:hover {
+  background-color: #2547f5;
+  background-image: linear-gradient(160deg, #1d40f1 0%, #5527ec 100%);
+}
+
+@media (max-width: 640px) {
+  .hero-description {
+    width: 80vw;
+    font-size: 2.5vw;
+  }
+
+  .announcement-link {
+    font-size: 0.75rem;
+  }
+
+  .announcement-text {
+    font-size: 2.8vw;
+  }
+}
