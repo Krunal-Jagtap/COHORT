@@ -1,0 +1,135 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: auto;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.logo {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo img {
+  /* Add styles for logo image */
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.nav-links a:hover {
+  color: #ff7902;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.703)), url("./assets/chaigym.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-content {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  color: #ffffff;
+
+}
+
+.hero-content p {
+  font-size: 1.4em;
+  padding: 2vh 6vh;
+  color: #ffffff;
+
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background: #ff7902;
+  border-radius: 10px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.cta-button:hover {
+  background-color: #e66f08;
+  cursor: pointer;
+  color: white;
+}
+
+/* Features section styles */
+.features {
+  background: #000000bf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.feature {
+  border: 2px solid #ff7902;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.feature h3 {
+  color: #ff7902;
+}
+
+.feature p {
+  /* Add styles for feature paragraph */
+}

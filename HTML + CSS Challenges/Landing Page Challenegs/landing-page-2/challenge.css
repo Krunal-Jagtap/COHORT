@@ -1,0 +1,177 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #01ff9d;
+  gap: 20px;
+}
+
+.logo img {
+  border: 3px solid #01ff9d;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-weight: 700;
+
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu a:hover {
+  color: #01ff9d;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+/* Hero section styles */
+.hero {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  object-fit: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.669), rgba(0, 0, 0, 0.724)), url("./assets/chaicohort.png");
+  /* height: 50%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  color: #01ff9d;
+}
+
+.hero-content p {
+  font-size: 1.6em;
+  color: #ffffff;
+  padding-block: 2vh 4vh;
+
+}
+
+.hero-content img {
+  border: 2px solid #01ff9d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 2px;
+  margin-block: 2vh 5vh;
+}
+
+.hero-content img:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+  cursor: pointer;
+}
+
+.enroll-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: #01ff9d;
+  border: none;
+  width: 20%;
+
+}
+
+.enroll-button:hover {
+  background-color: #06cf82;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Highlights section styles */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.highlight-card {
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 14px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-align: center;
+}
+
+.highlight-card h3 {
+  color: #01ff9d;
+  padding: 2vh 3vh;
+}
+
+.highlight-card p {
+  /* Add styles for highlight card paragraphs */
+}
