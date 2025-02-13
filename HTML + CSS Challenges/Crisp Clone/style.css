@@ -8,8 +8,12 @@
 :root {
   --link-color--: #1a1a1a;
   --bg-color--: #b9deff;
-  --btn-text--: #ffffff;
+  --text-white--: #ffffff;
   --btn-bg--: #3784f6;
+  --border--: #1972f5;
+  --text-blue--: #074eb8;
+  --shadow--: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 /* Navigation Start */
@@ -54,7 +58,7 @@ nav ul li a {
 
 .nav-btn .get-btn {
   background-color: var(--btn-bg--);
-  color: var(--btn-text--);
+  color: var(--text-white--);
   padding: 8px 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -64,3 +68,93 @@ nav ul li a {
 }
 
 /* Navigation End */
+
+/* Header Start */
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-color--);
+  position: absolute;
+}
+
+.center {
+  width: 50%;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transform: translate(-50%, -14%);
+  -webkit-transform: translate(-50%, -14%);
+  -moz-transform: translate(-50%, -14%);
+  -ms-transform: translate(-50%, -14%);
+  -o-transform: translate(-50%, -14%);
+}
+
+.center .v4 {
+  border: 2px solid var(--border--);
+  color: var(--text-blue--);
+  padding: 12px 14px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.center span {
+  background: var(--border--);
+  color: var(--text-white--);
+  padding: 4px 8px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.center h1 {
+  font-size: 2.5em;
+  margin-block: 4vh 4vh;
+  color: #35556d;
+}
+
+.center .desc1 {
+  margin-block: 1vh 6vh;
+}
+
+.center button {
+  background-color: var(--btn-bg--);
+  color: var(--text-white--);
+  padding: 14px 14px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: none;
+  font-size: 1em;
+}
+
+.center button:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow--);
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+
+.center .free {
+  padding-top: 2vh;
+  font-size: 0.9em;
+  color: var(--link-color--);
+}
+
+/* Header End */
