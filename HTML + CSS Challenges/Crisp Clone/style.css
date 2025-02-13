@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --link-color--: #1a1a1a;
+  --bg-color--: #b9deff;
+  --btn-text--: #ffffff;
+  --btn-bg--: #3784f6;
+}
+
+/* Navigation Start */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  padding-inline: 7vw;
+  padding-bottom: 8vh;
+  background-image: url(./assets/nav-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 62%;
+  background-color: var(--bg-color--);
+  font-size: 0.9em;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--link-color--);
+  text-decoration: none;
+}
+
+.nav-btn .nav-search {
+  background-color: #ffffff9c;
+  color: var(--link-color--);
+  padding: 8px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.nav-btn .get-btn {
+  background-color: var(--btn-bg--);
+  color: var(--btn-text--);
+  padding: 8px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Navigation End */
