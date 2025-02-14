@@ -183,3 +183,148 @@ header {
 }
 
 /* Sub Header End  */
+
+/* Main Section Start  */
+main {
+  padding-top: 80vh;
+}
+
+main h2 {
+  width: 60%;
+  text-align: center;
+  font-size: 2.8em;
+  margin: auto;
+  margin-bottom: 10vh;
+}
+
+span {
+  color: var(--border--);
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main-section .box {
+  display: flex;
+  flex-direction: column;
+  width: 38vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: var(--shadow--);
+}
+
+.main-section .box-info {
+  padding: 20px;
+}
+
+.main-section .box-info .box-title {
+  color: var(--border--);
+  font-size: 1.2em;
+}
+
+.main-section .box-info .box-heading {
+  font-size: 1.4em;
+  padding-block: 3vh 3vh;
+}
+
+.main-section .box-info .box-desc {
+  color: var(--link-color--);
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+.main-section button {
+  width: 26%;
+  padding: 8px 12px;
+  background-color: var(--border--);
+  color: var(--text-white--);
+  border: none;
+  border-radius: 8px;
+  margin-block: 3vh 3vh;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.main-section button:hover {
+  background-color: var(--border--);
+  cursor: pointer;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+
+.main-section-img {
+  text-align: center;
+}
+
+.main-2 img {
+  width: 60%;
+  text-align: center;
+}
+
+.main-4 img {
+  width: 100%;
+  text-align: center;
+}
+
+.main-5 img {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.main-section .flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+
+.main-section .flex-row .box-info {
+  width: 50vw;
+}
+
+.main-section .flex-row img {
+  width: 100%;
+}
+
+.main-section .small-box-height {
+  height: 50vh;
+}
+
+.main-section .small-box-height-2 {
+  height: 40vh;
+}
+
+.main-section .small-box-1 {
+  gap: 80px;
+}
+
+.last-box {
+  margin-left: 42vw;
+}
+
+.main-icon {
+  width: 5% !important;
+  font-size: 2em;
+  margin-right: 0.5vw;
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+}
+
+/* Main Section End  */
