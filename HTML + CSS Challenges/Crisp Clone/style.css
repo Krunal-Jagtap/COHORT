@@ -82,18 +82,18 @@ header {
 .center {
   width: 50%;
   position: absolute;
-  top: 14%;
+  top: 0%;
   left: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  transform: translate(-50%, -14%);
-  -webkit-transform: translate(-50%, -14%);
-  -moz-transform: translate(-50%, -14%);
-  -ms-transform: translate(-50%, -14%);
-  -o-transform: translate(-50%, -14%);
+  transform: translate(-50%, -0%);
+  -webkit-transform: translate(-50%, -0%);
+  -moz-transform: translate(-50%, -0%);
+  -ms-transform: translate(-50%, -0%);
+  -o-transform: translate(-50%, -0%);
 }
 
 .center .v4 {
@@ -158,3 +158,28 @@ header {
 }
 
 /* Header End */
+
+/* Sub Header Start  */
+
+.second-header-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 64vh;
+}
+
+.second-header-left {
+  position: absolute;
+  left: 0;
+}
+.second-header-right {
+  position: absolute;
+  right: 0;
+}
+
+.second-header-center img {
+  width: 80vw;
+}
+
+/* Sub Header End  */
