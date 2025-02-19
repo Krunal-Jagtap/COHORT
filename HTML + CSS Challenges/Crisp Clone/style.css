@@ -14,6 +14,7 @@
   --text-blue--: #074eb8;
   --light-bg--: rgba(211, 211, 211, 0.167);
   --demo-bg--: #242f47;
+  --star--: #fdb022;
   --shadow--: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -533,3 +534,70 @@ span {
 }
 
 /* Demo End */
+
+hr {
+  margin-top: 23vh;
+  color: var(--link-color--);
+}
+
+/* Footer Start */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 80vw;
+  margin: auto;
+  padding-block: 10vh 10vh;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  padding-block: 1vh;
+}
+
+footer li:hover {
+  background-color: rgb(233, 233, 233);
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+
+footer a {
+  color: var(--link-color--);
+  text-decoration: none;
+}
+
+footer .f-head a {
+  color: var(--link-color--);
+  font-weight: bolder;
+
+}
+
+footer i {
+  padding-right: 1vw;
+  font-size: 1.4em;
+}
+
+footer select {
+  background-color: var(--text-white--);
+  padding: 8px 12px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1.1em;
+  margin-block: 2vh 4vh;
+}
+
+footer span {
+  color: var(--star--);
+  font-weight: bolder;
+}
+
+/* Footer End */
