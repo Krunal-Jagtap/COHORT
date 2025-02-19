@@ -13,6 +13,7 @@
   --border--: #1972f5;
   --text-blue--: #074eb8;
   --light-bg--: rgba(211, 211, 211, 0.167);
+  --demo-bg--: #242f47;
   --shadow--: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -438,3 +439,97 @@ span {
 }
 
 /* Customer Support Section End */
+
+/* Demo Start */
+.demo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  background-color: var(--demo-bg--);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  position: relative;
+}
+
+.demo-left {
+  width: 45vw;
+  padding: 40px;
+}
+
+.demo-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+}
+
+.demo-imgs img {
+  width: 30%;
+  object-fit: cover;
+}
+
+.demo-heading h4 {
+  font-size: 2.4em;
+  color: var(--text-white--);
+  padding-block: 4vh 8vh;
+}
+
+.demo-btns button {
+  background-color: var(--btn-bg--);
+  color: var(--text-white--);
+  padding: 18px 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: none;
+  font-size: 1em;
+
+}
+
+.demo-btns .btn2 {
+  background-color: var(--text-white--);
+  color: var(--link-color--);
+}
+
+.demo-btns button:hover {
+  background-color: var(--border--);
+  color: var(--text-white--);
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+.demo-right {
+  width: 45vw;
+}
+
+.demo-right-1 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.demo-right-2 img {
+  width: 14%;
+  position: absolute;
+  top: 14vh;
+  right: 1vw;
+  object-fit: cover;
+}
+
+.demo-right-3 img {
+  position: absolute;
+  top: -14vh;
+  right: 8vw;
+  object-fit: cover;
+}
+
+/* Demo End */
