@@ -1,0 +1,253 @@
+@media only screen and (max-width: 500px) {
+    body {
+        border: 10px solid red;
+        overflow-x: hidden;
+
+    }
+
+    /* Navbar Start */
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn ul li:nth-child(1) {
+        display: none;
+    }
+
+    .nav-btn ul li:nth-child(2) {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding-inline: 3vw;
+    }
+
+    /* Navbar End */
+
+    /* Header Start */
+    header div:nth-child(1) {
+        display: none;
+    }
+
+    header div:nth-child(3) {
+        display: none;
+    }
+
+    .center {
+        width: 95%;
+    }
+
+    .center .v4 {
+        border: 1px solid var(--border--);
+        padding: 12px 7px;
+        font-size: 0.9em;
+    }
+
+    .center span {
+        padding: 2px 6px;
+    }
+
+    .center h1 {
+        font-size: 1.8em;
+    }
+
+    .center .desc1 {
+        margin-bottom: 4vh;
+        font-size: 1em;
+        padding: 10px;
+        line-height: 1.4;
+        line-height: 1.5;
+    }
+
+    /* Header End */
+
+    /* Sub Header Start */
+    .second-header-section div:nth-child(1) {
+        display: none;
+    }
+
+    .second-header-section div:nth-child(3) {
+        display: none;
+    }
+
+    .second-header-section {
+        top: 65vh;
+        background-color: var(--bg-color--);
+        padding-bottom: 6vh;
+
+    }
+
+    .second-header-center img {
+        width: 90vw;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    /* Sub Header End */
+
+    /* Main Start */
+
+    main h2 {
+        width: 80%;
+        font-size: 2.4em;
+        line-height: 1.4;
+    }
+
+    .main-section .box {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .main-section button {
+        width: 30vw;
+    }
+
+    .main-section-img img {
+        width: 100%;
+    }
+
+    /*  */
+    .main-section .flex-row .box-info {
+        width: 80vw;
+    }
+
+    .main-section .flex-row {
+        flex-direction: column;
+    }
+
+    .main-section .small-box-height {
+        height: 55vh;
+    }
+
+    .main-section .small-box-height-2 {
+        height: 50vh;
+    }
+
+    .Widget {
+        margin-top: 90vh !important;
+    }
+
+    /* Main End */
+
+    /* Customer Support Section Start  */
+    .customer-support .cs-heading h3 {
+        font-size: 1.2em;
+        width: 75vw;
+    }
+
+    .customer-support .cs-img img {
+        margin-block: 8vh -5vh;
+    }
+
+    .cs-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+        text-align: start;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        margin: auto;
+    }
+
+    .cs-boxs {
+        gap: 30px;
+    }
+
+    .cs-desc p {
+        text-align: center;
+    }
+
+    .bg {
+        width: 100vw;
+        margin-block: 6vh;
+    }
+
+    .cs-last-img img {
+        width: 100%;
+        padding-bottom: 12vh;
+    }
+
+    /* Customer Support Section End  */
+
+    /* Demo Start  */
+    .demo-imgs img {
+        display: none;
+    }
+
+    .demo-right-1 img {
+        display: none;
+    }
+
+    .demo-right-2 img {
+        display: none;
+    }
+
+    .demo-right-3 img {
+        display: none;
+    }
+
+    .demo-left {
+        width: 100vw;
+        padding: 30px;
+    }
+
+    .demo-right {
+        display: none;
+    }
+
+    .demo-heading h4 {
+        font-size: 1.6em;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .demo-btns {
+        text-align: center;
+    }
+
+    .btn1 {
+        margin: 3vh;
+    }
+
+    /* Demo End */
+
+    /* Footer Start */
+    footer {
+        width: 95vw;
+    }
+
+    footer i {
+        padding-right: 6vw;
+    }
+
+    .footer-links {
+        margin: 10px;
+        text-align: center;
+    }
+
+    footer .footer-links:nth-child(2) {
+        text-align: start;
+    }
+
+    footer .footer-links:nth-child(3) {
+        text-align: start;
+    }
+
+    footer .footer-links:nth-child(4) {
+        text-align: start;
+    }
+
+    footer .footer-links:nth-child(5) {
+        text-align: start;
+    }
+
+    /* Footer End */
+
+}

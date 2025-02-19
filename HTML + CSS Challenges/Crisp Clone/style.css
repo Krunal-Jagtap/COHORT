@@ -548,6 +548,7 @@ footer {
   width: 80vw;
   margin: auto;
   padding-block: 10vh 10vh;
+  flex-wrap: wrap;
 }
 
 footer ul {
