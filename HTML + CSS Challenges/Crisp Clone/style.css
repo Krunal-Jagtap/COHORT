@@ -601,3 +601,22 @@ footer span {
 }
 
 /* Footer End */
+
+/* Chat Box Start */
+
+.fixed {
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  z-index: 100;
+  padding: 14px;
+  background-color: var(--border--);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Chat Box End */
