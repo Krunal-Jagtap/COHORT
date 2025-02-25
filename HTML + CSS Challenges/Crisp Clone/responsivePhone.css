@@ -1,6 +1,5 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
     body {
-        border: 10px solid red;
         overflow-x: hidden;
 
     }
@@ -60,6 +59,10 @@
         line-height: 1.5;
     }
 
+    .center .free {
+        padding-block: 2vh 41vh;
+    }
+
     /* Header End */
 
     /* Sub Header Start */
@@ -80,6 +83,7 @@
 
     .second-header-center img {
         width: 90vw;
+        padding-top: 6vh;
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -110,7 +114,6 @@
         width: 100%;
     }
 
-    /*  */
     .main-section .flex-row .box-info {
         width: 80vw;
     }
@@ -128,7 +131,7 @@
     }
 
     .Widget {
-        margin-top: 90vh !important;
+        margin-top: 140vh !important;
     }
 
     /* Main End */

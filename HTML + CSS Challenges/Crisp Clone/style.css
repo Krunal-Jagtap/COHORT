@@ -371,6 +371,7 @@ span {
   justify-content: space-between;
   align-items: center;
   width: 80vw;
+  margin: auto;
   flex-wrap: wrap;
 }
 
@@ -599,6 +600,11 @@ footer select {
 footer span {
   color: var(--star--);
   font-weight: bolder;
+}
+
+footer .footer-links-first {
+  width: 100%;
+  padding-block: 2vh 4vh;
 }
 
 /* Footer End */

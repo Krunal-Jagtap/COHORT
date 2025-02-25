@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1100px) {
+    nav {
+        width: 100vw;
+        font-size: 1.4vw
+    }
+
+    .nav-btn .nav-search {
+        display: none;
+    }
+
+    .center h1 {
+        font-size: 2.1em;
+    }
+
+    .desc {
+        width: 70vw;
+    }
+
+    .second-header-section {
+        top: 70vh;
+    }
+
+    .right-bg img {
+        position: absolute;
+        top: -40vh;
+        left: 60vw;
+    }
+
+    .main-section button {
+        width: 38%;
+    }
+
+    .main-section .small-box-height {
+        height: 55vh;
+    }
+
+    .main-section .small-box-height-2 {
+        height: 50vh;
+    }
+
+    .main-section-img {
+        width: 100%;
+    }
+
+    .main-section-img img {
+        width: 100%;
+    }
+
+    .cs-box {
+        width: 25vw;
+    }
+
+    .demo-btns button {
+        margin-bottom: 4vh;
+    }
+
+    footer .footer-links-first {
+        text-align: center;
+    }
+}
