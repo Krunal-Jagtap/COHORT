@@ -24,3 +24,11 @@ console.log(true + true);
 console.log(true + false);
 console.log(false + true);
 console.log(false - true);
+
+// String Interpolation -
+let favCodeEditor = "Visual Studio Code";
+let favLang = "JavaScript";
+
+console.log(
+  `I code in ${favCodeEditor}, and my favorite coding language is ${favLang}`
+);
