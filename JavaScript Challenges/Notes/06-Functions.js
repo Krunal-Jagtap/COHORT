@@ -23,3 +23,10 @@ let subtraction = function (a, b) {
 };
 
 subtraction(2, 2);
+
+// Arrow Function -
+const multiplication = (num1, num2) => {
+  return num1 * num2;
+};
+
+console.log(multiplication(2, 8));
