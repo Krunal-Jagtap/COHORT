@@ -54,3 +54,18 @@ do {
   console.log(count);
   count++;
 } while (count <= 10);
+
+// pattern
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+for (let row = 1; row <= 5; row++) {
+  let pattern = "";
+  for (let col = 1; col <= row; col++) {
+    pattern = pattern + " *";
+  }
+  console.log(pattern);
+}
