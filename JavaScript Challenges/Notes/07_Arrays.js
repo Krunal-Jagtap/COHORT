@@ -49,3 +49,22 @@ console.log(games);
 // shift - remove element at start
 games.shift();
 console.log(games);
+
+// Splice - remove and replace elements
+games.splice(1, 1);
+console.log(games);
+
+games.splice(1, 0, "Chess");
+console.log(games);
+
+// indexof - return index number ( not found return -1 )
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 4, 9, 10];
+console.log(numbers.indexOf(8));
+
+// lastindexof - search backwards
+console.log(numbers.indexOf(4));
+console.log(numbers.lastIndexOf(4));
+
+// include - return true or false
+console.log(numbers.includes(10));
+console.log(numbers.includes(11));
