@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  color: #fff;
+}
+
+main {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -20%);
+  -webkit-transform: translate(-50%, -20%);
+  -moz-transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
+  -o-transform: translate(-50%, -20%);
+}
+
+h1 {
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-bottom: 4px solid orangered;
+  margin-bottom: 4vh;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50vw;
+  gap: 20px;
+}
+section button,
+input {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.tasks li,
+button {
+  border: 2px solid orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 14px;
+  font-size: 1.4em;
+  margin-block: 4vh;
+}
+
+li button {
+  font-size: 1em;
+}
