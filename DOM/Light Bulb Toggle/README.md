@@ -7,4 +7,4 @@
 - The button text should dynamically update based on the bulb’s state (e.g., "Turn On" / "Turn Off").
 - Apply a dark mode effect to the page when the bulb is off.
 
-## Live --> https://light-buld-toggle-krunal-jagtap.netlify.app/
+### Live --> https://light-buld-toggle-krunal-jagtap.netlify.app/
