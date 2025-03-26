@@ -5,3 +5,4 @@
 - When a color button is clicked, the heading’s text color should change to the corresponding color.
 - Clicking the Reset button should restore the text color.
 
+### Live Link - https://change-text-color-krunal-jagtap.netlify.app/
