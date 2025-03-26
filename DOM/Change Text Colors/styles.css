@@ -1,0 +1,47 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  font-size: 1.4em;
+}
+h1 {
+  transition: color 0.3s ease;
+}
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 1em;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#redButton {
+  background-color: #e74c3c;
+}
+#greenButton {
+  background-color: #2ecc71;
+}
+#blueButton {
+  background-color: #3498db;
+}
+#purpleButton {
+  background-color: #9b59b6;
+}
+#resetButton {
+  background-color: #34495e;
+}
