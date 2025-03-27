@@ -19,8 +19,27 @@ addButton.addEventListener("click", () => {
     //  clear input value to add next value
     input.value = "";
 
+    // Adding Complete Button
+    const completeButton = document.createElement("button");
+    completeButton.innerText = "✅";
+
+    completeButton.style.backgroundColor = "transparent";
+    completeButton.style.border = "none";
+    completeButton.style.cursor = "pointer";
+
+    li.appendChild(completeButton);
+
+    completeButton.addEventListener("click", () => {
+      li.classList.add("task-completed");
+    });
+
+    // Delete Button
     const deleteButton = document.createElement("button");
-    deleteButton.innerText = "X";
+    deleteButton.innerText = "❌";
+
+    deleteButton.style.backgroundColor = "transparent";
+    deleteButton.style.border = "none";
+    deleteButton.style.cursor = "pointer";
 
     li.appendChild(deleteButton);
 

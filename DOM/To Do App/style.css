@@ -13,15 +13,11 @@ html {
 }
 
 main {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -20%);
-  -webkit-transform: translate(-50%, -20%);
-  -moz-transform: translate(-50%, -20%);
-  -ms-transform: translate(-50%, -20%);
-  -o-transform: translate(-50%, -20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10vh;
 }
 
 h1 {
@@ -29,19 +25,29 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-bottom: 4px solid orangered;
   margin-bottom: 4vh;
+  min-width: 80vw;
+  text-align: center;
 }
 
 section {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50vw;
+  min-width: 70vw;
   gap: 20px;
+}
+
+.inputField input {
+  min-width: 50vw;
 }
 section button,
 input {
   font-size: 1.2em;
   padding: 10px 20px;
+}
+
+li {
+  min-width: 50vw;
 }
 
 .tasks li,
@@ -57,4 +63,13 @@ button {
 
 li button {
   font-size: 1em;
+}
+
+.task-completed {
+  transition: 0.3s ease-in;
+  background-color: rgba(76, 166, 76, 0.733);
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
 }
