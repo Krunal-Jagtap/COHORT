@@ -79,3 +79,10 @@ console.log(a > 10 || b < 10);
 // logical NOT - ( ! )
 const isRaining = false;
 console.log(!isRaining);
+
+// Used in console here
+// 1 + 1 * 3 
+// answer = 4 Here calulate left to right  ( operator precedence ) 
+// We can use ()
+// (1 + 1) * 3
+// answer = 6
