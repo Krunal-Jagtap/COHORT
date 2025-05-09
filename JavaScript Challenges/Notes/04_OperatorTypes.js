@@ -86,3 +86,8 @@ console.log(!isRaining);
 // We can use ()
 // (1 + 1) * 3
 // answer = 6
+
+// Order of Operations :
+// ()
+// * / 
+// + -
