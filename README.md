@@ -12,3 +12,5 @@ Here I Write Tech related Blogs
 ### + [Network Fundamentals 🌐](https://foundation-software-development.hashnode.dev/software-development-fundamentals-ultimate-guide)
 ### + [The Journey of Your Data : Browser to server](https://journey-of-your-data-browser-to-server.hashnode.dev/the-journey-of-your-data-browser-to-server)
 ### + [Unlocking the Power of CSS](https://mastering-style-css.hashnode.dev/unlocking-the-power-of-css)
+### + Checkout Live - [Simple Dev Blogs](https://simple-dev-blogs.netlify.app/)
+
